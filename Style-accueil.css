@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('img/fond-page-daccueil.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.bouton-jouer {
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.bouton-jouer button {
+  background-color: #4caf50;
+  color: white;
+  font-size: 2rem;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.bouton-jouer button:hover {
+  background-color: #388e3c;
+  transform: scale(1.15);
+}
+
+.introduction {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  width: 85%;
+  max-width: 650px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.boite {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 15px;
+  width: 85%;
+  max-width: 650px;
+  margin-bottom: 30px;
+}
+
+.en-tete h1 {
+  font-size: 3.2rem;
+  margin-bottom: 15px;
+  color: #ffd700;
+  font-family: 'Georgia', serif;
+}
+
+.en-tete p {
+  font-size: 1.3rem;
+  color: #ccc;
+}
+
+.contenu button {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 18px 35px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contenu button:hover {
+  background-color: #005bb5;
+  transform: scale(1.10);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.logo {
+  max-width: 250px;
+  max-height: 250px;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+
+.TexteIntro {
+  font-size: 1.1rem;
+}

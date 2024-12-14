@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/fond-page-FinDeJeu.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+#message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+    z-index: 1000;
+}
+
+#rejouer {
+    padding: 15px 20px;
+    font-size: 1em;
+    border: 3px solid transparent;
+
+    border-radius: 8px;
+    background-color: rgba(50, 205, 50, 1);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s, border-color 0.3s ease;
+}
+
+
+#rejouer:hover {
+    background-color: rgba(50, 205, 50, 0.8);
+
+    transform: scale(1.05);
+
+    border-color: rgba(255, 255, 255, 0.8);
+
+}
+
+
+#rejouer:active {
+    transform: scale(0.98);
+
+    background-color: rgba(50, 50, 50, 0.8);
+
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+
+#quitter {
+    padding: 15px 20px;
+    font-size: 1em;
+    border: 3px solid transparent;
+
+    border-radius: 8px;
+    background-color: rgba(255, 99, 71, 1);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s, border-color 0.3s ease;
+}
+
+
+#quitter:hover {
+    background-color: rgba(255, 99, 71, 0.8);
+
+    transform: scale(1.05);
+
+    border-color: rgba(255, 255, 255, 0.8);
+
+}
+
+
+#quitter:active {
+    transform: scale(0.98);
+
+    background-color: rgba(50, 50, 50, 0.8);
+
+}
+
+
+
+
+
+.solution-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.solution-item {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.3em;
+
+    margin-bottom: 8px;
+    color: white;
+}
+
+
+.solution-item p {
+    font-size: 1.15em;
+
+    color: white;
+}
+
+
+.solution-image {
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px 0;
+}
